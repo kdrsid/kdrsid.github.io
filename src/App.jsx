@@ -3,27 +3,17 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar'
-
+import Home from './components/Home'
+import About from './components/About'
 function App() {
 
   return (
     <>
     <div>
       <Navbar />
+      <Home />
+      <About/>
       <main>
-        <section id="home" className="section">
-          <div className="card">
-            <h1>Home</h1>
-            <p>Welcome to the homepage!</p>
-          </div>
-        </section>
-
-        <section id="about" className="section">
-          <div className="card">
-            <h1>About</h1>
-            <p>This is where you describe your site or yourself.</p>
-          </div>
-        </section>
 
         <section id="contact" className="section">
           <div className="card">
