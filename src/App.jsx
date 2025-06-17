@@ -5,13 +5,14 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
+import Footer from './components/Footer'
 function App() {
 
   return (
     <>
     <div>
-      <Navbar />
-      <Home />
+      <Navbar/>
+      <Home/>
       <About/>
       <main>
 
@@ -22,6 +23,7 @@ function App() {
           </div>
         </section>
       </main>
+      <Footer/>
     </div>
     </>
   )
