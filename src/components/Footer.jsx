@@ -18,7 +18,7 @@ const Footer = () => {
         <a href="https://github.com/kdrsid"><FaGithub size={40} color='gray'/></a>
         <a href="https://www.facebook.com/share/1AoCnAnGNt/"><FaFacebook size={40} color='gray'/></a>
         <a href="https://www.snapchat.com/add/chrisqwqowo?share_id=7As-ptSmU5I&locale=en-GB"><FaSnapchat size={40} color='gray'/></a>
-        </div>
+      </div>
     </nav>
   )
 }

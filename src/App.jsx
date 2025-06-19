@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
 import Footer from './components/Footer'
+import Contact from './components/Contact'
 function App() {
 
   return (
@@ -11,14 +12,7 @@ function App() {
       <Navbar/>
       <Home/>
       <About/>
-      <main>
-        <section id="contact" className="section">
-          <div className="card">
-            <h1>Contact</h1>
-            <p>Get in touch with us here.</p>
-          </div>
-        </section>
-      </main>
+      <Contact/>
       <Footer/>
     </div>
     </>
