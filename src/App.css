@@ -31,7 +31,6 @@ body {
   width: 100%;
   box-sizing: border-box;
   margin: auto;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card h1 {

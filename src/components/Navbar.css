@@ -19,6 +19,10 @@
   justify-content: center;
 }
 
+.logo:hover {
+  transform: translate3d(2px, 2px, 2px);
+}
+
 .navbar-links {
   display: flex;
   justify-content: center;
