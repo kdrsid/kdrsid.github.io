@@ -1,0 +1,11 @@
+.section h1{
+    color: lightblue;
+    margin: auto;
+    text-align: center;
+}
+
+.section h2, p {
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}

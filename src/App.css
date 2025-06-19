@@ -13,13 +13,14 @@ body {
 
 .section {
   height: fit-content;
-  width: 95vw;
+  width: 100%;
   padding: 5rem;
   box-sizing: border-box;
   text-align: center;
   margin: auto;
   position: relative;
   border: 2px solid white;
+  
 }
 
 .card {
