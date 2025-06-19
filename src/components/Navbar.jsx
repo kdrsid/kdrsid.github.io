@@ -1,9 +1,10 @@
 import "./Navbar.css";
+import icon from '../assets/icon.png';
 export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo">
-        <p>Logo</p>
+        <a href="#home"><img src={icon} alt="Logo image is not loaded." width={30} height={30} /></a>
       </div>
       <div className="navbar-links">
         <a href="#home" className="nav-button">Home</a>
