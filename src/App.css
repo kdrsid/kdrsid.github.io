@@ -1,28 +1,26 @@
-html, body {
+html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  background-color: #171920;
-  width: 100%;
-}
-main {
-  width: 100vw;
-  margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  overflow-y: auto;
+  width: calc(100vw - 17px);
+  justify-content: center;
+  align-items: center;
+  background-color: #171920;
 }
 
 .section {
   height: fit-content;
-  width: 80%;
+  width: fit-content;
+  width: 95vw;
   padding: 5rem;
   box-sizing: border-box;
   text-align: center;
   margin: auto;
   position: relative;
+  border: 2px solid white;
 }
 
 .card {
@@ -36,11 +34,6 @@ main {
   margin: auto;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
-.card:hover {
-  
-}
-
 
 .card h1 {
   margin-bottom: 0.5rem;
