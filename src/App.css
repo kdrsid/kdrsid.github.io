@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-  padding: 5rem 1rem;
+  padding: min(5rem, 8%);
   border-radius: 12px;
   box-shadow: 0 2px 50px lightblue;
   max-width: 1000px;
@@ -34,6 +34,7 @@ body {
 
 .card h1 {
   margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 3.5vw, 5rem);
   color: #3463ff;
 }
 

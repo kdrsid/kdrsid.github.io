@@ -12,7 +12,7 @@
 }
 
 .home-card {
-    padding: 5rem 1rem;
+    padding: min(5rem, 8%);
     border-radius: 12px;
     box-shadow: 0 2px 50px lightblue;
     max-width: 1000px;
@@ -31,6 +31,7 @@
 
 .home-card h1 {
     color: lightblue;
+    font-size: clamp(3rem, 3.5vw, 5rem);
 }
 
 .home-card p {
