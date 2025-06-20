@@ -45,3 +45,10 @@ h2 {
 .skills-bars:hover .skill-level {
   width: var(--level);
 }
+
+.card p {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
