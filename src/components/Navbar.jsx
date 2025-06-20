@@ -1,9 +1,22 @@
 import "./Navbar.css";
 import icon from '../assets/icon.png';
+import { useState } from "react";
 
 export default function Navbar() {
+  const [color, setcolor] = useState(false)
+  
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setcolor(true)
+    }
+    else {
+      setcolor(false)
+    }
+  }
+  window.addEventListener('scroll', changeColor)
+
   return (
-    <nav className="navbar">
+    <nav className={color ? 'navbar navbar-background' : 'navbar'}>
       <div className="logo">
         <a href="#home"><img src={icon} alt="Logo image is not loaded." width={30} height={30} /></a>
       </div>
