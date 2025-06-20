@@ -25,11 +25,15 @@ body {
 .card {
   padding: min(5rem, 8%);
   border-radius: 12px;
-  box-shadow: 0 2px 50px lightblue;
   max-width: 1000px;
   width: 100%;
   box-sizing: border-box;
   margin: auto;
+  transition: box-shadow 1s ease-in;
+}
+
+.card:hover {
+  box-shadow: 0 2px 50px lightblue;
 }
 
 .card h1 {
