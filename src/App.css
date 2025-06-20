@@ -19,14 +19,13 @@ body {
   text-align: center;
   margin: auto;
   position: relative;
-  border: 2px solid white;
   
 }
 
 .card {
   padding: 5rem 1rem;
   border-radius: 12px;
-  box-shadow: 0 2px 10px lightblue;
+  box-shadow: 0 2px 50px lightblue;
   max-width: 1000px;
   width: 100%;
   box-sizing: border-box;

@@ -1,10 +1,14 @@
 import React from 'react'
-import "./About.css";
-
+import "./About.css"
+import luaicon from '../assets/luaicon.png';
+import pythonicon from '../assets/Python.png'
+import Cicon from '../assets/C++icon.png'
 const skills = [
   { name: 'Lua', level: 80 },
   { name: 'Python', level: 80 },
   { name: 'C++', level: 65 },
+  { name: 'Html & Css', level: 60 },
+  { name: 'JavaScript', level: 50 }
 ];
 
 const About = () => {
@@ -12,7 +16,13 @@ const About = () => {
     <section id="about" className="section">
           <div className="card">
             <h1>About Me</h1>
-            <p>About me!</p>
+            <p>Hello, my name is Chris Leung. I’m from Hong Kong and currently a student at SFU.
+               I am learning data structures, AI algorithms, and web development to grow my skills. 
+               My hobbies are basketball and gaming. 
+               During my free time, I watch shorts or videos about AI automation, which I want to use and solve real-world problems. 
+               If you are interested in programming as well, I would recommend <a href="https://www.codedex.io/home">Codedex.io</a>.
+               It is a website that teaches about different programming languages, and it has a game element in it, which makes the learning process more fun. 
+            </p>
             <div className="skills-bars">
               <h2>My Skills</h2>
               {skills.map((skill, index) => (
@@ -25,6 +35,11 @@ const About = () => {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className='imageicons'>
+              <img className="luaicon" src={luaicon} alt="Image of Lua icon is not loaded." width={60} height={60} />
+              <img className="pythonicon" src={pythonicon} alt="Image of Python icon is not loaded." width={60} height={60} />
+              <img className="c++icon" src={Cicon} alt="Image of C++ icon is not loaded." width={60} height={60} />
             </div>
           </div>
         </section>
