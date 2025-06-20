@@ -12,19 +12,19 @@
 }
 
 .home-card {
-  padding: 5rem 1rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 50px lightblue;
-  max-width: 1000px;
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
-  align-items: center;
-  justify-items: center;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  gap: 5px;
+    padding: 5rem 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 50px lightblue;
+    max-width: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5px;
 }
 
 .home-card h1 {

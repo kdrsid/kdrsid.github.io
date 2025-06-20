@@ -55,6 +55,7 @@
   color: gray;
   transition: color 0.4s ease;
 }
+
 .icon:hover {
   color: lightblue;
 }
