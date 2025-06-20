@@ -31,7 +31,7 @@
 
 .home-card h1 {
     color: lightblue;
-    font-size: clamp(3rem, 3.5vw, 5rem);
+    font-size: clamp(3rem, calc(2.5vw + 1rem), 5rem);
 }
 
 .home-card p {

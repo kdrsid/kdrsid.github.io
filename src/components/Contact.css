@@ -2,6 +2,7 @@
     color: lightblue;
     margin: auto;
     text-align: center;
+    font-size: clamp(3rem, calc(2.5vw + 1rem), 5rem);
 }
 
 .section h2, p {
