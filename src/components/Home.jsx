@@ -8,7 +8,7 @@ const Home = () => {
             <div className="text-container">
               <h1>Hello. I'm Chris</h1>
               <h3>Software Developer & Game Developer</h3>
-              <p>I am currently a CS student in Simon Fraser University.</p>
+              <p>I am currently a CS student at Simon Fraser University.</p>
             </div>
             <img className="image" src={image} alt="Image of me is not loaded." width={200} height={200} />
           </div>
