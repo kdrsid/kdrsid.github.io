@@ -28,10 +28,12 @@
     margin-bottom: 10vw;
     margin-top: 10vw;
     transition: box-shadow 1s ease-in;
+    transition: backdrop-filter 0.5s ease-in-out;
 }
 
 .home-card:hover {
     box-shadow: 0 2px 50px lightblue;
+    backdrop-filter: blur(10px);
 }
 
 .home-card h1 {

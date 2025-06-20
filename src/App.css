@@ -9,6 +9,11 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #171920;
+  background-image: url(./assets/bluebackground.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .section {
@@ -30,10 +35,12 @@ body {
   box-sizing: border-box;
   margin: auto;
   transition: box-shadow 1s ease-in;
+  transition: backdrop-filter 0.5s ease-in-out;
 }
 
 .card:hover {
   box-shadow: 0 2px 50px lightblue;
+  backdrop-filter: blur(10px);
 }
 
 .card h1 {

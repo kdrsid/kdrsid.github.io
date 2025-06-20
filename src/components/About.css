@@ -40,7 +40,6 @@ h2 {
     margin-left: auto;
     padding-right: 10px;
     color: lightblue;
-    transition: color 0.5s ease-in;
 }
 
 .skills-bars:hover .skill-level {
