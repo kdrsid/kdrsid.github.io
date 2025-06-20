@@ -8,7 +8,7 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <h2>Get in touch!</h2>
         <p><FiPhoneCall color='lightgray'/> Phone number: +1 236-258-6381</p>
-        <p><IoMailOutline color='lightgray'/> Mail: kris68008@gmail.com</p>
+        <p><IoMailOutline color='lightgray'/> Mail: kris68088@gmail.com</p>
     </section>
   )
 }
