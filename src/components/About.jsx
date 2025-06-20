@@ -1,8 +1,11 @@
 import React from 'react'
 import "./About.css"
-import luaicon from '../assets/luaicon.png';
+import luaicon from '../assets/luaicon.png'
 import pythonicon from '../assets/Python.png'
 import Cicon from '../assets/C++icon.png'
+import jsicon from '../assets/JavaScript.png'
+import htmlicon from '../assets/HTML5.png'
+import cssicon from '../assets/CSS3.png'
 const skills = [
   { name: 'Lua', level: 80 },
   { name: 'Python', level: 80 },
@@ -40,6 +43,9 @@ const About = () => {
               <img src={luaicon} alt="Image of Lua icon is not loaded." width={60} height={60} />
               <img src={pythonicon} alt="Image of Python icon is not loaded." width={60} height={60} />
               <img src={Cicon} alt="Image of C++ icon is not loaded." width={60} height={60} />
+              <img src={htmlicon} alt="Image of HTML icon is not loaded." width={60} height={60} />
+              <img src={cssicon} alt="Image of Css icon is not loaded." width={60} height={60} />
+              <img src={jsicon} alt="Image of JavaScript icon is not loaded." width={60} height={60} />
             </div>
           </div>
         </section>
