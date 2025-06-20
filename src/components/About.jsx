@@ -6,15 +6,15 @@ import Cicon from '../assets/C++icon.png'
 import jsicon from '../assets/JavaScript.png'
 import htmlicon from '../assets/HTML5.png'
 import cssicon from '../assets/CSS3.png'
-const skills = [
+
+const About = () => {
+  const skills = [
   { name: 'Lua', level: 80 },
   { name: 'Python', level: 80 },
   { name: 'C++', level: 65 },
   { name: 'Html & Css', level: 60 },
   { name: 'JavaScript', level: 50 }
-];
-
-const About = () => {
+] ;
   return (
     <section id="about" className="section">
           <div className="card">
