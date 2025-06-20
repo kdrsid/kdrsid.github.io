@@ -25,6 +25,8 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 5px;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
 }
 
 .home-card h1 {
