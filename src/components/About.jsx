@@ -37,9 +37,9 @@ const About = () => {
               ))}
             </div>
             <div className='imageicons'>
-              <img className="luaicon" src={luaicon} alt="Image of Lua icon is not loaded." width={60} height={60} />
-              <img className="pythonicon" src={pythonicon} alt="Image of Python icon is not loaded." width={60} height={60} />
-              <img className="c++icon" src={Cicon} alt="Image of C++ icon is not loaded." width={60} height={60} />
+              <img src={luaicon} alt="Image of Lua icon is not loaded." width={60} height={60} />
+              <img src={pythonicon} alt="Image of Python icon is not loaded." width={60} height={60} />
+              <img src={Cicon} alt="Image of C++ icon is not loaded." width={60} height={60} />
             </div>
           </div>
         </section>
